@@ -1,3 +1,12 @@
+A React application built with @xyflow/react (a variant of React Flow) for creating interactive node-based diagrams. It supports custom node types, custom edges, and dynamic child tracking in group nodes.
+
+**Features**
+Group Nodes (groupNode): Display a label and dynamically track child nodes.
+Default Nodes (customNode): Generic nodes with customizable label/color.
+Custom Edges (custom): Supports animations, label styling, and line styling.
+Dynamic Connections: When a user draws a new connection from a group node, the child ID is added to the group node’s data in real time.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
